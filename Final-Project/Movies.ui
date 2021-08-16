@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecDialog</class>
+ <widget class="QDialog" name="SecDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#pushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}
+
+QPushButton#pushButton_2{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton_2:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton_2:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}
+QPushButton#pushButton_3{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton_3:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton_3:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}
+QPushButton#pushButton_4{
+	
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton_4:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton_4:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}
+QPushButton#pushButton_5{
+	
+	
+	
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton_5:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton_5:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}
+QPushButton#pushButton_6{
+	
+	
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.438, y2:0.579545, stop:0.176136 rgba(255, 205, 102, 255), stop:0.585227 rgba(253, 190, 0, 255));
+color:rgpa(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#pushButton_6:hover{
+	background-color: qlineargradient(spread:pad, x1:0.0832857, y1:0.392, x2:1, y2:1, stop:0.309091 rgba(176, 190, 197,255), stop:0.981061 rgba(246, 186, 156, 255));
+	
+}
+QPushButton#pushButton_6:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150,123,111,225);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>580</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/images/img3.png);
+border-top-left-radius:50px;
+border-bottom-right-radius:50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>181</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>90</y>
+     <width>181</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>90</y>
+     <width>181</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius:20px;
+border-bottom-right-radius:20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>161</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/images/movie1.jfif);
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>161</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/images/poster-780.jpg);
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>100</y>
+     <width>161</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/images/The_Suicide_Squad_official_poster.jpeg);
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>340</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Book Now</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>340</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Book Now</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>340</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Book Now</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>380</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Watch Trailer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>380</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Watch Trailer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>380</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Watch Trailer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial Rounded MT Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string> Censor Rating          Duration
+  A                                 2h 16m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial Rounded MT Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string> Censor Rating          Duration
+  U/A                              2h 56m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial Rounded MT Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string> Censor Rating      Duration
+  U/A                          2h 6m</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

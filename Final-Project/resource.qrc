@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/img.png</file>
+        <file>images/RGIPT CINEMA (1).png</file>
+        <file>images/img3.png</file>
+        <file>images/icon2.png</file>
+        <file>images/movie1.jfif</file>
+        <file>images/poster-780.jpg</file>
+        <file>images/The_Suicide_Squad_official_poster.jpeg</file>
+        <file>images/3453496.png</file>
+        <file>images/Indie Summer Film Fest.png</file>
+    </qresource>
+</RCC>
