@@ -1,5 +1,5 @@
 #include "Movies.h"
-#include "ui_secdialog.h"
+#include "Movies.h"
 #include<QDesktopServices>
 #include<QUrl>
 SecDialog::SecDialog(QWidget *parent) :
